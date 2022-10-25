@@ -19,6 +19,8 @@ public class Game {
     }
 
     private void createAccount() {
+        accountp1 = new Account();
+        accountp2 = new Account();
     }
 
     private void createDice() {
