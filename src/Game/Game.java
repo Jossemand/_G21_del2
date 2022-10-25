@@ -11,6 +11,7 @@ public class Game {
 
     private Die die1,die2;
     private boolean isWinnerFound = false;
+    private int turn = 1;
 
     Scanner input = new Scanner(System.in);
 
@@ -26,6 +27,11 @@ public class Game {
 
     private void playGame() {
         while(isWinnerFound){
+            if(turn == 1) {
+
+            }else {
+
+            }
 
         }
     }
