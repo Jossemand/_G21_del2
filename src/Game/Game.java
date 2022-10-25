@@ -1,6 +1,7 @@
 package Game;
 
 public class Game {
+    private Player player_1, player_2;
 
     private Account accountp1;
     private Account accountp2;
@@ -14,6 +15,7 @@ public class Game {
     }
 
     private void createPlayer() {
+
     }
 
     private void createAccount() {
