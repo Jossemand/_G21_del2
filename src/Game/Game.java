@@ -8,6 +8,7 @@ public class Game {
 
 
     private Die die1,die2;
+    private boolean isWinnerFound = false;
 
     Scanner input = new Scanner(System.in);
     public Game(){
@@ -16,16 +17,24 @@ public class Game {
         createAccount();
         createPlayer();
 
+        playGame();
+
+    }
+
+    private void playGame() {
+        while(isWinnerFound){
+
+        }
     }
 
     private void createPlayer() {
-        System.out.println("enter name of player 1");
+        System.out.println("Enter name of Player 1");
         player_1 = new Player(input.next());
-        System.out.println("Player 1 name is"+player_1.getName());
+        System.out.println("Player 1 name is "+player_1.getName());
 
-        System.out.println("enter name of player 2");
+        System.out.println("enter name of Player 2");
         player_2 = new Player(input.next());
-        System.out.println("Player 2 name is"+player_2.getName());
+        System.out.println("Player 2 name is "+player_2.getName());
 
     }
 
