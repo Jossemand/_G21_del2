@@ -1,5 +1,7 @@
 package Game;
 
+import java.util.Scanner;
+
 public class Game {
     private Player player_1, player_2;
 
@@ -9,7 +11,7 @@ public class Game {
 
     private Die die1,die2;
 
-
+Scanner input = new Scanner(System.in);
     public Game(){
 
         createDice();
@@ -20,8 +22,8 @@ public class Game {
 
     private void createPlayer() {
 
-        player_1 = new Player();
-        player_2 = new Player();
+        player_1 = new Player( input.next());
+        player_2 = new Player(input.next());
     }
 
 
