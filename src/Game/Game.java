@@ -28,6 +28,7 @@ public class Game {
     private void playGame() {
         while(!isWinnerFound){
             if() {
+
                 spiller1 tur;
             } else {
                 spiller2 tur;
