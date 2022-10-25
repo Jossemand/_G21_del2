@@ -2,6 +2,13 @@ package Game;
 
 public class Account {
 
-    public Account() {}
+    private int startbalance;
+    private int minbalance;
+
+    public Account() {
+        startbalance = 1000;
+    }
+
+
 
 }
