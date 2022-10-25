@@ -21,9 +21,12 @@ public class Game {
     private void createPlayer() {
         System.out.println("enter name of player 1");
         player_1 = new Player(input.next());
-        System.out.println("Player 1 name is");
+        System.out.println("Player 1 name is"+player_1.getName());
 
+        System.out.println("enter name of player 2");
         player_2 = new Player(input.next());
+        System.out.println("Player 2 name is"+player_2.getName());
+
     }
 
 
