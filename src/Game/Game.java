@@ -2,6 +2,10 @@ package Game;
 
 public class Game {
 
+
+    private Die die1,die2;
+
+
     public Game(){
 
         createDice();
@@ -17,6 +21,10 @@ public class Game {
     }
 
     private void createDice() {
+        die1 = new Die();
+        die2 = new Die();
+
+
     }
     
  
