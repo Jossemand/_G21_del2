@@ -21,6 +21,7 @@ public class Game {
     private void createPlayer() {
 
         player_1 = new Player();
+        System.out.println("Player 1 name is");
         player_2 = new Player();
     }
 
