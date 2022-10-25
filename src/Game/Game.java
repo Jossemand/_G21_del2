@@ -13,7 +13,10 @@ public class Game {
 
     private void createPlayer() {
 
+        player_1 = new Player();
+        player_2 = new Player();
     }
+
 
     private void createAccount() {
     }
