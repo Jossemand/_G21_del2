@@ -15,7 +15,7 @@ public class Game {
     }
 
     private void createPlayer() {
-
+        System.out.println("Enter your name: ");
         player_1 = new Player();
         player_2 = new Player();
     }
