@@ -22,8 +22,9 @@ Scanner input = new Scanner(System.in);
 
     private void createPlayer() {
         System.out.println("Enter your name: ");
-        player_1 = new Player( input.next());
-        player_2 = new Player(input.next());
+        player_1 = new Player();
+        System.out.println("Player 1 name is");
+        player_2 = new Player();
     }
 
 
