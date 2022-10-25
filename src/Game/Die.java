@@ -12,6 +12,10 @@ public class Die {
 
         private int faceValue; // Value of die showing
 
+
+
+
+
         public Die() {faceValue = 1;}
 
         // Rolls the die and returns the result
