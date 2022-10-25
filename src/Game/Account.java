@@ -2,13 +2,29 @@ package Game;
 
 public class Account {
 
-    private int startbalance;
+    private int balance;
     private int minbalance;
+    private int amount;
 
     public Account() {
-        startbalance = 1000;
+        balance = 1000;
         //constructor
     }
+    public int getBalance() {
+        return balance;
+    }
+
+    public int addToBalance(int amount) {
+        balance=amount+balance;
+        return balance;
+    }
+
+    public int subtractFromBalance() {
+        balance=amount-balance;
+        return balance;
+    }
+
+
 
 
 
