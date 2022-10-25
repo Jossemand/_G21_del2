@@ -19,7 +19,7 @@ public class Account {
         return balance;
     }
 
-    public int subtractFromBalance() {
+    public int subtractFromBalance(int amount) {
         balance=amount-balance;
         return balance;
     }
