@@ -1,11 +1,17 @@
 package Game;
 
+import java.util.Scanner;
+
 public class Game {
     private Player player_1, player_2;
 
     private Account accountp1;
     private Account accountp2;
 
+
+    private Die die1,die2;
+
+Scanner input = new Scanner(System.in);
     public Game(){
 
         createDice();
@@ -16,8 +22,8 @@ public class Game {
 
     private void createPlayer() {
         System.out.println("Enter your name: ");
-        player_1 = new Player();
-        player_2 = new Player();
+        player_1 = new Player( input.next());
+        player_2 = new Player(input.next());
     }
 
 
@@ -27,6 +33,10 @@ public class Game {
     }
 
     private void createDice() {
+        die1 = new Die();
+        die2 = new Die();
+
+
     }
     
  
