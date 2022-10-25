@@ -15,12 +15,12 @@ public class Account {
     }
 
     public int addToBalance(int amount) {
-        balance=amount+balance;
+        balance=balance+amount;
         return balance;
     }
 
     public int subtractFromBalance(int amount) {
-        balance=amount-balance;
+        balance=balance-amount;
         return balance;
     }
 

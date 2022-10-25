@@ -168,13 +168,13 @@ public class Game {
                             turn = 2;
                             break;
                         case 11:
-                            System.out.println(player_1.getName() + " lands on the pit, your balance is decreased by 50");
+                            System.out.println(player_2.getName() + " lands on the pit, your balance is decreased by 50");
                             accountP_2.subtractFromBalance(50);
                             System.out.println(player_2.getName() + "'s balance is now " + accountP_2.getBalance());
                             turn = 1;
                             break;
                         case 12:
-                            System.out.println(player_1.getName() + " lands on gold mine, your balance is increased by 650");
+                            System.out.println(player_2.getName() + " lands on gold mine, your balance is increased by 650");
                             accountP_2.addToBalance(650);
                             System.out.println(player_2.getName() + "'s balance is now " + accountP_2.getBalance());
                             turn = 1;
@@ -186,6 +186,12 @@ public class Game {
                 }
             }
         }
+        if(accountP_1.getBalance()>=3000)
+            System.out.println("The winner is " + player_1.getName() + " with " + accountP_1.getBalance() + " points");
+        else
+            System.out.println("The winner is " + player_2.getName() + " with " + accountP_2.getBalance() + " points");
+
+
     }
 
     private void createPlayer() {
