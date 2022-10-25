@@ -10,6 +10,7 @@ public class Game {
     private Die die1,die2;
     private boolean isWinnerFound = false;
 
+    private int trun = 1;
     Scanner input = new Scanner(System.in);
     public Game(){
 
@@ -22,7 +23,14 @@ public class Game {
     }
 
     private void playGame() {
-        while(isWinnerFound){
+        while(!isWinnerFound){
+            if() {
+
+                spiller1 tur;
+            } else {
+                spiller2 tur;
+            }
+
 
         }
     }
