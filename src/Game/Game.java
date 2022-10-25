@@ -1,5 +1,7 @@
 package Game;
 
+import java.util.Scanner;
+
 public class Game {
     private Player player_1, player_2;
 
@@ -9,6 +11,7 @@ public class Game {
 
     private Die die1,die2;
 
+    Scanner input = new Scanner(System.in);
 
     public Game(){
 
@@ -19,10 +22,11 @@ public class Game {
     }
 
     private void createPlayer() {
-
-        player_1 = new Player();
+        System.out.println("enter name of player 1");
+        player_1 = new Player(input.next());
         System.out.println("Player 1 name is");
-        player_2 = new Player();
+
+        player_2 = new Player(input.next());
     }
 
 
