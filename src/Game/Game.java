@@ -16,7 +16,6 @@ public class Game {
         createDice();
         createAccount();
         createPlayer();
-
         playGame();
 
     }
